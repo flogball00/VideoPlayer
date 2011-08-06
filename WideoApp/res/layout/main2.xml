@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:id="@+id/MainView" xmlns:android="http://schemas.android.com/apk/res/android">
+	<SurfaceView android:id="@+id/SurfaceView"
+		android:layout_height="wrap_content" android:layout_width="wrap_content" />
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:layout_alignParentBottom="true"
+		android:orientation="vertical">
+		<SeekBar android:layout_weight="1" android:layout_width="fill_parent"
+			android:id="@+id/seekbar" android:layout_height="wrap_content" />
+		<LinearLayout android:layout_height="fill_parent"
+			android:id="@+id/linearLayout1"
+			android:orientation="horizontal" android:layout_width="fill_parent">
+			<Button android:layout_weight="1" android:id="@+id/playvideoplayer"
+				android:text="PLAY" android:layout_height="wrap_content"
+				android:layout_width="fill_parent" />
+			<Button android:layout_weight="1" android:id="@+id/pausevideoplayer"
+				android:text="PAUSE" android:layout_height="wrap_content"
+				android:layout_width="fill_parent" />
+			<Button android:layout_weight="1" android:id="@+id/stepframe"
+				android:text="STEP" android:layout_height="wrap_content"
+				android:layout_width="fill_parent" />
+		</LinearLayout>
+
+
+
+	</LinearLayout>
+
+
+
+</RelativeLayout>
+
